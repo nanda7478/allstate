@@ -1,0 +1,78 @@
+
+
+
+@font-face {
+    font-family: 'museo_slab300_italic';
+    src: url('fonts/museo_slab_300_italic-webfont.eot');
+    src: url('fonts/museo_slab_300_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museo_slab_300_italic-webfont.woff2') format('woff2'),
+         url('fonts/museo_slab_300_italic-webfont.woff') format('woff'),
+         url('fonts/museo_slab_300_italic-webfont.ttf') format('truetype'),
+         url('fonts/museo_slab_300_italic-webfont.svg#museo_slab300_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bitterregular';
+    src: url('fonts/bitter-regular-webfont.eot');
+    src: url('fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bitter-regular-webfont.woff2') format('woff2'),
+         url('fonts/bitter-regular-webfont.woff') format('woff'),
+         url('fonts/bitter-regular-webfont.ttf') format('truetype'),
+         url('fonts/bitter-regular-webfont.svg#bitterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('fonts/robotocondensed-bold-webfont.eot');
+    src: url('fonts/robotocondensed-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+         url('fonts/robotocondensed-bold-webfont.woff') format('woff'),
+         url('fonts/robotocondensed-bold-webfont.ttf') format('truetype'),
+         url('fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'RobotoCondensed-Regular';
+	src: url('fonts/RobotoCondensed-Regular.eot');
+	src: local('☺'), 
+	url('fonts/RobotoCondensed-Regular.woff') format('woff'), 
+	url('fonts/RobotoCondensed-Regular.ttf') format('truetype'), 
+	url('fonts/RobotoCondensed-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoCondensed-Light';
+	src: url('fonts/RobotoCondensed-Light.eot');
+	src: local('☺'), 
+	url('fonts/RobotoCondensed-Light.woff') format('woff'), 
+	url('fonts/RobotoCondensed-Light.ttf') format('truetype'), 
+	url('fonts/RobotoCondensed-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'RobotoCondensed-Italic';
+	src: url('fonts/RobotoCondensed-Italic.eot');
+	src: local('☺'), 
+	url('fonts/RobotoCondensed-Italic.woff') format('woff'), 
+	url('fonts/RobotoCondensed-Italic.ttf') format('truetype'), 
+	url('fonts/RobotoCondensed-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

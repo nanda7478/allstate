@@ -1,0 +1,335 @@
+[24-Mar-2018 10:49:26 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 20
+[24-Mar-2018 10:49:29 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 20
+[24-Mar-2018 11:26:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 40
+[24-Mar-2018 11:33:53 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 11
+[24-Mar-2018 11:33:56 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 11
+[24-Mar-2018 12:00:29 UTC] PHP Parse error:  syntax error, unexpected '$image' (T_VARIABLE), expecting ',' or ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 12
+[24-Mar-2018 12:00:32 UTC] PHP Parse error:  syntax error, unexpected '$image' (T_VARIABLE), expecting ',' or ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 12
+[24-Mar-2018 12:03:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 12
+[24-Mar-2018 12:03:39 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 12
+[24-Mar-2018 12:41:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function url() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php:10
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#3 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 10
+[24-Mar-2018 12:41:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function url() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php:10
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#3 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/full-width-templet.php on line 10
+[24-Mar-2018 13:35:02 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 12
+[24-Mar-2018 13:35:33 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 12
+[24-Mar-2018 13:35:36 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 12
+[24-Mar-2018 13:36:39 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 20
+[24-Mar-2018 13:38:48 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 12
+[24-Mar-2018 13:40:49 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 12
+[26-Mar-2018 05:38:26 UTC] PHP Warning:  Illegal string offset 'blog_image' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 14
+[26-Mar-2018 05:39:57 UTC] PHP Warning:  Illegal string offset 'blog_image' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 14
+[26-Mar-2018 08:28:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_url() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:59
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php(58): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 59
+[26-Mar-2018 08:29:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_url() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:59
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php(58): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 59
+[26-Mar-2018 09:27:51 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 25
+[26-Mar-2018 09:27:54 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 25
+[26-Mar-2018 13:02:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpbloginfo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:52
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php(132): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 52
+[26-Mar-2018 13:02:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpbloginfo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:52
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen/404.php(34): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 52
+[26-Mar-2018 13:02:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpbloginfo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:52
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen/404.php(34): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 52
+[27-Mar-2018 07:00:40 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 234
+[27-Mar-2018 07:00:40 UTC] PHP Warning:  join(): Invalid arguments passed in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 234
+[27-Mar-2018 07:00:43 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 234
+[27-Mar-2018 07:00:43 UTC] PHP Warning:  join(): Invalid arguments passed in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 234
+[27-Mar-2018 07:00:44 UTC] PHP Warning:  array_map(): Argument #2 should be an array in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 234
+[27-Mar-2018 07:00:44 UTC] PHP Warning:  join(): Invalid arguments passed in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 234
+[27-Mar-2018 07:01:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_shortcode() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:19
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php(132): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 19
+[27-Mar-2018 07:01:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_shortcode() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:19
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen/404.php(34): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 19
+[27-Mar-2018 07:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_shortcode() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php:19
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen/404.php(34): get_footer()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 19
+[27-Mar-2018 07:18:51 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 18 and exactly 2 expected in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php:63
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php(18): add_shortcode('[foobar]')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php(132): get_footer()
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/ in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 63
+[27-Mar-2018 07:18:54 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 18 and exactly 2 expected in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php:63
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php(18): add_shortcode('[foobar]')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen/404.php(34): get_footer()
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-blo in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 63
+[27-Mar-2018 07:18:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_shortcode(), 1 passed in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php on line 18 and exactly 2 expected in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php:63
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/footer.php(18): add_shortcode('[foobar]')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(76): locate_template(Array, true)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen/404.php(34): get_footer()
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-blo in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/shortcodes.php on line 63
+[27-Mar-2018 09:14:38 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(114): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[27-Mar-2018 09:14:39 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(114): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[27-Mar-2018 09:17:12 UTC] PHP Fatal error:  Cannot declare class Social_Profile, because the name is already in use in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 12
+[27-Mar-2018 09:17:15 UTC] PHP Fatal error:  Cannot declare class Social_Profile, because the name is already in use in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 12
+[27-Mar-2018 09:17:15 UTC] PHP Fatal error:  Cannot declare class Social_Profile, because the name is already in use in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 12
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 10:58:16 UTC] PHP Warning:  Illegal string offset 'home__image5' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 71
+[27-Mar-2018 11:02:40 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 93
+[27-Mar-2018 11:02:40 UTC] PHP Warning:  Illegal string offset 'thumbnail' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 93
+[27-Mar-2018 11:02:40 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 94
+[27-Mar-2018 11:02:40 UTC] PHP Warning:  Illegal string offset 'thumbnail-width' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 94
+[27-Mar-2018 11:02:40 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 95
+[27-Mar-2018 11:02:40 UTC] PHP Warning:  Illegal string offset 'thumbnail-height' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 95
+[27-Mar-2018 11:22:06 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 78
+[27-Mar-2018 11:22:06 UTC] PHP Warning:  Illegal string offset 'thumbnail' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 78
+[27-Mar-2018 11:22:06 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 79
+[27-Mar-2018 11:22:06 UTC] PHP Warning:  Illegal string offset 'thumbnail-width' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 79
+[27-Mar-2018 11:22:06 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 80
+[27-Mar-2018 11:22:06 UTC] PHP Warning:  Illegal string offset 'thumbnail-height' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 80
+[27-Mar-2018 11:47:27 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php:83
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#3 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 83
+[27-Mar-2018 11:47:36 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php:83
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#3 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 83
+[27-Mar-2018 11:47:51 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php:83
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#3 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 83
+[28-Mar-2018 12:09:12 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:09:12 UTC] PHP Warning:  Illegal string offset 'thumbnail' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:09:12 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:09:12 UTC] PHP Warning:  Illegal string offset 'thumbnail-width' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:09:12 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[28-Mar-2018 12:09:12 UTC] PHP Warning:  Illegal string offset 'thumbnail-height' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[28-Mar-2018 12:09:22 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:09:22 UTC] PHP Warning:  Illegal string offset 'thumbnail' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:09:22 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:09:22 UTC] PHP Warning:  Illegal string offset 'thumbnail-width' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:09:22 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[28-Mar-2018 12:09:22 UTC] PHP Warning:  Illegal string offset 'thumbnail-height' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[28-Mar-2018 12:10:00 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:10:00 UTC] PHP Warning:  Illegal string offset 'thumbnail' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:10:00 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:10:00 UTC] PHP Warning:  Illegal string offset 'thumbnail-width' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:10:00 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[28-Mar-2018 12:10:00 UTC] PHP Warning:  Illegal string offset 'thumbnail-height' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[28-Mar-2018 12:12:36 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:12:36 UTC] PHP Warning:  Illegal string offset 'thumbnail' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 136
+[28-Mar-2018 12:12:36 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:12:36 UTC] PHP Warning:  Illegal string offset 'thumbnail-width' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 137
+[28-Mar-2018 12:12:36 UTC] PHP Warning:  Illegal string offset 'sizes' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[28-Mar-2018 12:12:36 UTC] PHP Warning:  Illegal string offset 'thumbnail-height' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/custom-home.php on line 138
+[03-Apr-2018 10:16:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/single-articles.php on line 24
+[03-Apr-2018 10:40:21 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[03-Apr-2018 10:40:26 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[03-Apr-2018 10:40:31 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[04-Apr-2018 09:06:17 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/about-us.php on line 24
+[04-Apr-2018 09:16:36 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 392
+[04-Apr-2018 09:16:37 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 392
+[11-Apr-2018 05:11:51 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/single-articles.php on line 53
+[11-Apr-2018 07:40:15 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 08:19:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 08:39:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php:93
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/custom-home.php(6): get_header()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php on line 93
+[11-Apr-2018 08:39:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php:93
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/custom-home.php(6): get_header()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php on line 93
+[11-Apr-2018 08:40:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php:93
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/custom-home.php(6): get_header()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php on line 93
+[11-Apr-2018 08:40:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php:93
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/custom-home.php(6): get_header()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php on line 93
+[11-Apr-2018 09:06:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentysixteen_the_custom_logo() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php:93
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(688): require_once()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', true)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/custom-home.php(6): get_header()
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/header.php on line 93
+[11-Apr-2018 10:10:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentysixteen_post_thumbnail() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/template-parts/content-single.php:15
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(690): require()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', false)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/single.php(19): get_template_part('template-parts/...', 'single')
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/template-parts/content-single.php on line 15
+[11-Apr-2018 10:10:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentysixteen_post_thumbnail() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/template-parts/content-single.php:15
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(690): require()
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template.php(647): load_template('/home4/trimurty...', false)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/single.php(19): get_template_part('template-parts/...', 'single')
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/template-loader.php(74): include('/home4/trimurty...')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-blog-header.php(19): require_once('/home4/trimurty...')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/index.php(17): require('/home4/trimurty...')
+#7 {main}
+  thrown in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/template-parts/content-single.php on line 15
+[16-Apr-2018 06:51:15 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/single.php on line 101

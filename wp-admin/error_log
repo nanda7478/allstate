@@ -1,0 +1,123 @@
+[22-Mar-2018 17:41:05 UTC] WordPress database error Unknown column 'wpas_' in 'field list' for query SELECT wpas_
+[24-Mar-2018 09:23:06 UTC] PHP Fatal error:  Cannot redeclare twentysixteen_content_width() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:143) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen/functions.php on line 144
+[26-Mar-2018 13:36:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_is_woocommerce_activated() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:55
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): shapely_widgets_init('')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-settings.php(450): do_action('init')
+#8 /home4/trimur in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 55
+[26-Mar-2018 13:36:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_is_woocommerce_activated() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:55
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): shapely_widgets_init('')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-settings.php(450): do_action('init')
+#8 /home4/trimur in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 55
+[26-Mar-2018 13:36:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function shapely_is_woocommerce_activated() in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:55
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): shapely_widgets_init('')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-settings.php(450): do_action('init')
+#8 /home4/trimur in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 55
+[27-Mar-2018 09:07:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(112): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[27-Mar-2018 09:07:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(112): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[27-Mar-2018 09:12:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(114): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[27-Mar-2018 09:12:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(114): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[27-Mar-2018 09:14:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(114): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[27-Mar-2018 09:14:51 UTC] PHP Fatal error:  Uncaught Error: Class 'Social_Profile' not found in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(115): WP_Widget_Factory->register('Social_Profile')
+#1 /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php(114): register_widget('Social_Profile')
+#2 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): social_profile('')
+#3 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/widgets.php(1648): do_action('widgets_init')
+#6 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NU in /home4/trimurty/demosrvr.com/wp/allstate/wp-includes/class-wp-widget-factory.php on line 100
+[03-Apr-2018 08:25:34 UTC] PHP Fatal error:  Cannot redeclare testimonial_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:206) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 327
+[03-Apr-2018 08:25:36 UTC] PHP Fatal error:  Cannot redeclare testimonial_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:206) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 327
+[03-Apr-2018 08:25:37 UTC] PHP Fatal error:  Cannot redeclare testimonial_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:206) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 327
+[03-Apr-2018 10:40:16 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[03-Apr-2018 10:40:17 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[03-Apr-2018 10:40:19 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[03-Apr-2018 10:40:25 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[03-Apr-2018 10:40:31 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[03-Apr-2018 10:40:35 UTC] PHP Fatal error:  Cannot redeclare articles_custom_post() (previously declared in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php:272) in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/twentysixteen-Child/functions.php on line 394
+[11-Apr-2018 07:27:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:27:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:28:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:29:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:29:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:31:10 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:31:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:32:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:33:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:33:35 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:35:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:35:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:37:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:37:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:39:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 07:41:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 08:16:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 08:17:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823
+[11-Apr-2018 08:19:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home4/trimurty/demosrvr.com/wp/allstate/wp-content/themes/allstate/functions.php on line 823

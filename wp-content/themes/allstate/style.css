@@ -1,0 +1,474 @@
+/*
+Theme Name: allstate
+Theme URI: https://wordpress.org/themes/allstate/
+Author: allstate team
+Author URI: https://wordpress.org/
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog
+Text Domain: allstate
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Normalize
+ * 2.0 - Genericons
+ * 3.0 - Typography
+ * 4.0 - Elements
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ *   6.2 - Menus
+ * 7.0 - Accessibility
+ * 8.0 - Alignments
+ * 9.0 - Clearings
+ * 10.0 - Widgets
+ * 11.0 - Content
+ *    11.1 - Header
+ *    11.2 - Posts and pages
+ *    11.3 - Post Formats
+ *    11.4 - Comments
+ *    11.5 - Sidebar
+ *    11.6 - Footer
+ * 12.0 - Media
+ *    12.1 - Captions
+ *    12.2 - Galleries
+ * 13.0 - Multisite
+ * 14.0 - Media Queries
+ *    14.1 - >= 710px
+ *    14.2 - >= 783px
+ *    14.3 - >= 910px
+ *    14.4 - >= 985px
+ *    14.5 - >= 1200px
+ * 15.0 - Print
+ */
+
+
+/**
+ * 1.0 - Normalize
+ *
+ * Normalizing styles have been helped along thanks to the fine work of
+ * Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+ */
+
+
+a:hover { color:#282828; }
+
+.para p { font-weight:700; }
+
+button { border:none; }
+
+
+
+
+
+ 
+@media (max-width:1199px) { 
+
+.top_header_menu .primary-menu li a{ padding:3px 10px; }
+.header_social { padding-left:15px; }
+
+.para p br { display:none; }
+
+
+.people-have li br { display:none; }
+
+.sub-footer { padding:40px 0; }
+.righ_content_img > p br { display:none; }
+
+.img_trans{ max-height:420px; }
+
+.event-right aside{ padding-left:0px; }
+
+.about_second .text-manige > h2{ font-size:20px; }
+.left_quote > h2{ font-size:32px; }
+
+
+.service_text h4 a br{ display:none; }
+.service_text h4 a { font-size:28px; }
+
+.max-width-page { max-width:100%; padding:0 15px; }
+
+.contact_form { padding:0px; }
+
+.investigation-title{ padding:10px; }
+
+}
+
+@media (max-width:1050px) { 
+.add,
+.our_local{ font-size:18px; }
+
+.home_left > h4 { font-size:32px; padding:12px 30px 12px 0; }
+
+.section-malorum { max-width:760px; font-size:22px; letter-spacing:0px; }
+
+.para p{ font-size:20px; }
+
+.people-have li { font-size:18px; line-height:24px; padding:5px 0; }
+.img_box_right .people-have > h3{ font-size:20px; } 
+.img_box_right.max_height, .img_box_left.max_height img {
+  min-height: 360px;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width:1199px) { 
+.people-have li {
+  font-size: 18px;
+  line-height: 24px;
+ } 
+.img_box_right.max_height, .img_box_left.max_height img{ height:330px; min-height: inherit} 
+ .home-slider .flex-direction-nav .flex-prev {
+  left: 30px;
+}
+.home-slider .flex-direction-nav .flex-next {
+  right: 30px;
+}
+.menu-header_menu-container::after{ width:111%;}
+.right_arr::after{ width:70%;}
+
+}
+@media (min-width: 768px) and (max-width:991px) { 
+
+.top_header_menu .primary-menu li a { font-size:16px; padding:7px 2px; }
+.carousel-caption-table-cell.text-left > h1 { max-width:75%; }
+.header_social{ padding:0px; }
+
+.top-text-right .textwidget a { font-size:22px; }
+ .bg_menu{ height:89px; }
+
+.add, .our_local{ font-size:18px; }
+
+.top_header_menu .primary-menu li a { }
+
+.investigation-title { height:180px; }
+
+.investion_title_h3 h3,
+.investion_title_h3 h3 a { font-size:18px; line-height:1.2; }
+
+
+.site-branding{ margin-left:-15px !important; padding-right:15px;  }
+.about_second::before{ left:-14px;}
+.parttime, .fulltime, .assiting{ width:14%;}
+.section-malorum {
+  max-width: 563px;
+}
+.home-slider .flex-direction-nav .flex-prev {
+  left: 20px;
+}
+.home-slider .flex-direction-nav .flex-next {
+  right: 20px;
+}
+.right_arr::after{ width:170%;}
+.menu-header_menu-container::after{ width:148%;}
+
+ }
+
+ 
+@media (max-width:991px) { 
+
+.home_content{ text-align:center; }
+
+.home-right,
+.home_left { max-width:100%; display:block; clear:both; width:100%; }
+.home_left > h4{ text-align:center; }
+.home_left > h4 { font-size:20px; }
+
+.min-height{ padding:10px; }
+.home_content{ padding-bottom:20px; }
+
+.investigation{ padding:20px 0px; }
+
+.min-height { padding:18px 15px !important; min-height:100px !important; }
+
+.right_arr.min-height { padding:25px 15px !important; }
+
+.investigation .col-sm-3 { width:50%; margin:10px 0; }
+
+.para p{ font-size:32px; line-height:45px; }
+.para p br { display:block; }
+
+.img_box .col-sm-6 { max-width:100%; display:block; clear:both; width:100%; }
+.img_box_left.max_height{ max-height:1000px; }
+.img_box_right { padding:15px; }
+
+.people-have{ max-width:750px; margin:auto; padding:0 15px; } 
+
+.img_box_right.max_height{ min-height:300px; }
+
+.logos_ul > li { min-height:90px; }
+
+.menige-featurd-text > h2{ padding:0px; }
+
+.last_box .col-sm-3.right_last{ padding-left:0px; }
+.img_trans{ max-height:340px; }
+
+.sub-footer{ text-align:center; }
+.footer_logo .social-icons{ padding:20px 0; }
+
+.footer_menu{ width:50%; float:left; }
+
+.event-content .entry-content > p{ margin-top:10px; }
+.event-image-content { clear: both; margin: 0 0 30px; }
+
+.inner-pages-banner{ height:300px; }
+
+.event-content-deatils .author_date li{ width:100%; }
+
+.event-content-deatils .author_date { margin:15px 0; }
+
+.about_content img {width:100%; margin:10px 0; }
+
+.about_content { margin:20px 0; }
+
+.get-quote-service{ margin:20px 0 0 0; text-align:center; }
+.right_quote_btn{ text-align:center; }
+
+
+.service_text h4 a br{ display:block; }
+ .difficult_page { padding:20px 0; }
+
+.difficult_content #accordions-287 .accordion-content ul li a{ font-size:16px; }
+
+.hq_page{ max-width:100%; }
+
+.free_auote_page{ max-width:100%; width:100%; }
+
+.blck_bg {width:110%; }
+
+.home-slider .slides li{ max-height:400px; }
+.home-slider .carousel-caption-table-cell.text-left{ padding:0 30px; }
+.img_box_right.max_height, .img_box_left.max_height img {
+  min-height: auto;
+}
+.right_learn_more > a{ font-size:13px;}
+
+.img_left > img {
+  padding: 10px 0 20px;
+}
+.padding_right_div .about_matter.left-right-space {
+  padding-left: 0;
+}
+.jointeam{ max-width:100%;}
+.top-team-heading{ font-size:20px;}
+.jointeam > p{ font-size:16px;}
+
+.blog-page { padding:20px 0; }
+.header-menu-manige {bottom:-36px; }
+
+
+
+}
+ 
+
+@media (min-width: 1200px) and (max-width:1300px) { 
+.section-malorum {max-width: 965px;}
+.menu-header_menu-container::after{ width:112%;}
+.right_arr::after{ width:100%;}
+}
+ 
+ 
+ 
+ 
+@media (max-width: 767px) { 
+
+
+.curve_padd { text-align:center; padding:0px !important; }
+.min-height{ min-height:50px !important; }
+.section-malorum { float:none; }
+.right_arr { text-align:center; }
+
+.left_tought::after { display:none; }
+.investigation .col-sm-3{ float:left; }
+
+.right_learn_more,
+.unusaul_bg{ text-align:center; margin:0 0 40px 0;}
+
+.last_box .col-sm-3.right_last{ padding-left:15px; }
+.img_trans { max-height:500px; margin:10px 0 10px 0;}
+
+.bg_menu { background:#282828; height:auto; }
+
+.custom-logo-link{ padding:0px; }
+
+.site-header-main .col-sm-9,
+.site-header-main .col-sm-3{ width:50%; float:left; } 
+
+.right-header div { display:none; }
+
+.anon-menu.open-nav,
+#menu-toggle1  { display:block !important; }
+
+.menu-toggle .fa-times{ display:none; }
+
+.event-content,
+.event-img { width:100%; max-width:100%; display:block; clear:both; float:none; padding:10px 0; }
+
+.blog-page{ padding-bottom:0px; }
+
+.footer_top_heading{ padding:30px 0; }
+
+.event-content-deatils .post-thumbnail { width:100%; padding:0px 0 20px 0; float:none; display:block; clear:both; }
+
+.event-sub-page { padding:20px 0; }
+
+.event-sub-page .navigation.post-navigation{ margin:30px 0; }
+.more_event #related_posts li {width:100%; float:none; display:block; clear:both; margin:10px 0; }
+
+
+.about_second_bg { text-align:center; background:#282828 ; }
+
+.about_second::before,
+.about_second::after{ display:none; }
+
+.faq_content .row p,
+.inestigator p{ font-size:16px; }
+
+.accordions-head-title,
+.speak > h2{ font-size:20px; }
+.headings { margin:15px 0; }
+
+
+.contact_detail { width:100%; padding:20px 0; max-width:100%; display:block; clear:both; }
+.contact_left img {width:100%; }
+
+.max-width-page .faq_tabs_scrton { margin-right:-15px; margin-left:-15px; }
+ 
+.faq_content .row h2{ font-size:32px; }
+
+.inner-pages-banner{ height:200px; }
+
+.quo-te_bg { padding:10px; }
+.left_quote > h2{ font-size:24px; }
+
+.resource_content .accordion-content ul li {width:100%; padding:10px; margin:0px; width:100%;  -moz-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;  }
+
+.col-sm-3.investigation-box {width:50%; float:left; }
+.blck_bg{ display:none; }
+.blue_rotate_div { transform: rotate(0deg); margin:0px; }
+.testimonial-matter{ padding:0px; }
+.testmonial_block{ padding:20px 0; }
+
+.border_div{ margin-top:20px; }
+
+.home-slider .container.carousel-caption-table{ display:none; }
+
+.home-slider .slides li{ max-height:200px; }
+
+.menu-header_menu-container{ background:none; display:block; padding:0px; }
+.menu-header_menu-container { height:auto; }
+
+.logo_sectn > h3,
+.menige-featurd-text > h2{ font-size:22px; }
+.logo_sectn{ max-width:100%; }
+
+.img_box_right .people-have > p {
+ 
+  font-size: 18px;
+  margin: 9px 0 0;
+}
+.banner_img_content > h2 {
+  font-size: 22px;
+  max-width: 90%;
+ }
+ 
+.parttime, .fulltime, .assiting {
+  float: left;
+  text-align: center;
+  width: 32%;
+} 
+ .cate{ width:100%;}
+
+.custom-logo {
+  max-width: 180px;
+  padding: 5px 0 0;
+}
+.investion_title_h3 h3 a {
+  font-size: 18px;
+}
+.investigation-title {
+  padding: 2px;
+}
+.inner-pages-content-table-cell h1{ font-size:22px;}
+.sub-page-max-width {
+  max-width: 90%;
+}
+
+#related_posts{ padding:0 0px; }
+.curve_padd::after { right:0px; }
+
+.right_arr::after{ left:-100px; }
+
+ .logos_ul > li { min-height:30px; }
+.right_learn_more, .unusaul_bg{ margin:0px; }
+
+
+
+.menu-toggle img {
+  max-width: 30px;
+}
+.right-header{ margin:-6px 0 0}
+
+.fa-times { max-width: 22px !important;}
+.add, .our_local {
+  margin: auto;
+  max-width: 80%;
+}
+
+.section-malorum {
+  font-size: 14px;
+  max-width: 100%;
+}
+.min-height {
+  min-height: 81px !important;
+}
+.right_arr.min-height {
+  padding: 16px !important;
+}
+.right_arr::after{ width:329%;}
+
+.para p {
+  font-size: 26px;
+  line-height: 36px;
+}
+
+
+}
+ 
+ 
+@media (max-width:479px) { 
+
+.investigation .col-sm-3{ width:246px; }
+.right_arr::after {width: 210px !important;}
+}
+
+@media (min-width: 1300px) and (max-width:1600px) { 
+
+.section-malorum {max-width: 970px;}
+.menu-header_menu-container::after{ width:141% !important;}
+.right_arr::after{ width:132% !important;}
+}
+
+ 
+@media (min-width: 1051px) and (max-width:1199px) { 
+.section-malorum {
+  font-size: 22px;
+  max-width: 780px;
+}
+.add{ font-size:22px;}
+}
+
+
+.media_page .wug-gallery-pagination a.next { background:url(images/ar.png) no-repeat center center; background-size:100%; text-indent:-9999px; font-size:0px; width:30px; height:30px; }
+.media_page .wug-gallery-pagination a.prev {  background:url(images/al.png) no-repeat center center; background-size:100%; text-indent:-9999px; font-size:0px; width:30px; height:30px; }
